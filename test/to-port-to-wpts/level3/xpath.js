@@ -46,7 +46,7 @@ describe("xpath", { skipIfBrowser: true }, () => {
   });
   specify("testPeekPop", function() {
     var s = new xpath.Stream('a b c');
-    assert.equal('a', s.peek());
+    assert.equal('a', s.nextInputCodePoint());
     assert.equal(' b c', s.str);
     assert.equal('a', s.pop());
     assert.equal('b', s.pop());
