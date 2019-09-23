@@ -88,6 +88,12 @@ window-screen-height.html: [fail, Test not applicable - no output device]
 window-screen-width.html: [fail, Test not applicable - no output device]
 
 ---
+DIR: css/geometry
+
+DOMMatrix-newobject.html: [fail, Not implemented]
+DOMMatrix-stringifier.html: [fail, Tests for WebkitCSSMatrix not applicable]
+DOMMatrix2DInit-validate-fixup.html: [fail, Depends on canvas]
+---
 
 DIR: dom/abort
 
